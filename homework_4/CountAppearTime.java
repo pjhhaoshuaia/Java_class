@@ -5,6 +5,7 @@ public class CountAppearTime {
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
 		int[] a=new int[100];
+                int c=0;
 		System.out.print("Enter 10 numbers:");
 		int n=input.nextInt();
 		int i=0,count=1,j=0;
