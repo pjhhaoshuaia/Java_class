@@ -23,7 +23,7 @@ public class GeometricObject {
 	public void setFilled(boolean filled) {
 		this.filled=filled;
 	}
-	public java.util.Date getDateCreated(){
+	public java.util.Date getDateCreated() {
 		return dateCreated;
 	}
 	public String toString() {
