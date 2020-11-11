@@ -3,7 +3,7 @@ public class PolymorphismDemo {
 		displayObject(new Circle(1,"red",false));
 		displayObject(new Ractangle(1,1,"black",true));
 	}
-	public static void displayObject(GeometricObject object) {
+	public static void displayObject(GeometricObject object)  {
 		System.out.println("Created on "+object.getDateCreated()+". Color is "+object.getColor());
 	}
 }
